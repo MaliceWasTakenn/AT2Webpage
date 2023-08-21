@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-au">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Animals from South America" />
+        <title>MSS Solutions</title>
+        <link rel="stylesheet" href="css/general.css"/>
+        <link rel="stylesheet" href="css/header.css"/>
+        <link rel="stylesheet" href="css/footer.css"/>
+        <link rel="stylesheet" href="css/contact.css"/>
+        <script src="contact.js"></script>
+    </head>
+<body>
+    <header>
+        <h1>MSS Solutions</h1>
+        <label for="HamburgerCheckbox">
+            <img class="HamburgerImage" src="img/Hamburger_icon.svg" alt="Expand and collapse menu">
+        </label>
+        
+
+        <input id="HamburgerCheckbox" type="checkbox" >
+        <nav>
+            <a href="index.html">Index</a>
+            <a href="products.html">Products</a>
+            <a href="about.html">About</a>
+            <a class="ActiveNav" href="contact.html">Contact</a>
+            <a href="checkout.html">Checkout</a>
+        </nav>
+    </header>
+    <form id="ContactForm">
+        <label for="firstName">First Name:</label><br>
+        <input type="text" id="firstName" name="firstName"><br>
+        <label for="lastName">Last Name:</label><br>
+        <input type="text" id="lastName" name="lastName"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="mobile">Mobile:</label><br>
+        <input type="text" id="mobile" name="mobile"><br><br>
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message"></textarea><br><br>
+        <input type="submit" value="Submit" onclick="insertInto(); return false;"><br>
+        <input type="reset" value="Reset">
+    </form>
+
+    <table id="myTable">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Mobile</th>
+            <th>Message</th>
+        </tr>
+    </table>
+    <footer>
+        <a rel="logo" href="index.html"><img id= "logo" src="img/Logo.png" alt="MSS Solutions Logo"></a>
+        <br>
+   
+        <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" />
+    
+    <br />MSS Solutions by Dingus Dinkledorf is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+    </footer>
+
+
+</body>
+</html>
